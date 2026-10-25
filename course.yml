@@ -6,8 +6,8 @@
     "reference_code": null,
     "independent": true,
     "status": "en-desarrollo",
-    "authorship": "Colaboradores del curso; identificación individual pendiente de confirmar",
-    "license": "pendiente-de-aclaracion",
+    "authorship": "ngulloa (contenido original autorizado; terceros según THIRD-PARTY-NOTICES.md)",
+    "license": "CC-BY-NC-4.0",
     "first_page": "temas/induccion.qmd",
     "objectives": [
       "Aplicar inducción, sucesiones y el teorema del binomio.",
