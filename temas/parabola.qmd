@@ -1,6 +1,8 @@
 ---
 title: "Parábola"
 description: "Vértice, foco, directriz y formas principales de la parábola."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 ## Objetivo

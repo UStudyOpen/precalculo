@@ -1,6 +1,8 @@
 ---
 title: "Teorema del Binomio"
 description: "Desarrollo de potencias de binomios usando coeficientes binomiales y el triángulo de Pascal."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 ## Objetivo

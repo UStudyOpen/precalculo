@@ -1,15 +1,36 @@
 ---
-title: "Inicio"
+title: "Precálculo"
+toc: false
 description: "Compendio de consulta rápida para la asignatura de Precálculo."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
+
+:::: {.uso-hero}
+[UStudyOpen · Recursos universitarios abiertos]{.uso-course-identity}
+
+## Álgebra, trigonometría y geometría analítica
+
 
 Este sitio es un compendio de consulta rápida de Precálculo. Reúne definiciones, ideas centrales, ejemplos mínimos y advertencias frecuentes para apoyar el estudio autónomo y la preparación de ejercicios.
 
-## Temas
+::: {.uso-actions}
+[Comenzar a estudiar](temas/induccion.qmd){.btn .btn-primary}
+[Explorar los temas](#temas){.btn .btn-outline-primary}
+:::
+::::
+
+## Objetivos generales
+
+- Aplicar inducción, sucesiones y el teorema del binomio.
+- Interpretar razones trigonométricas y el círculo unitario.
+- Relacionar ecuaciones de rectas, circunferencias y parábolas con su representación geométrica.
+
+## Temas {#temas}
 
 ::: {.topic-grid}
 ::: {.topic-card .is-available}
-<p class="topic-status">Disponible</p>
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
 
 ### [Inducción matemática](temas/induccion.qmd)
 
@@ -17,7 +38,7 @@ Demostraciones para proposiciones indexadas por números naturales.
 :::
 
 ::: {.topic-card .is-available}
-<p class="topic-status">Disponible</p>
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
 
 ### [Sucesiones y sumatorias](temas/sucesiones-sumatorias.qmd)
 
@@ -25,7 +46,7 @@ Lenguaje básico para describir listas ordenadas de términos y notación sigma.
 :::
 
 ::: {.topic-card .is-available}
-<p class="topic-status">Disponible</p>
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
 
 ### [Teorema del Binomio](temas/teorema-binomio.qmd)
 
@@ -33,7 +54,7 @@ Desarrollo de potencias de binomios mediante coeficientes binomiales y el trián
 :::
 
 ::: {.topic-card .is-available}
-<p class="topic-status">Disponible</p>
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
 
 ### [Trigonometría](temas/trigonometria.qmd)
 
@@ -41,7 +62,7 @@ Medición angular, razones trigonométricas, círculo unitario e identidades bá
 :::
 
 ::: {.topic-card .is-available}
-<p class="topic-status">Disponible</p>
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
 
 ### [Funciones lineales y ecuación de la recta](temas/funciones-lineales-recta.qmd)
 
@@ -49,7 +70,7 @@ Pendiente, razón de cambio y formas principales de la ecuación de una recta.
 :::
 
 ::: {.topic-card .is-available}
-<p class="topic-status">Disponible</p>
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
 
 ### [Circunferencia](temas/circunferencia.qmd)
 
@@ -57,10 +78,19 @@ Centro, radio y ecuaciones principales de la circunferencia en el plano cartesia
 :::
 
 ::: {.topic-card .is-available}
-<p class="topic-status">Disponible</p>
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
 
 ### [Parábola](temas/parabola.qmd)
 
 Vértice, foco, directriz y formas principales de la parábola.
 :::
 :::
+
+
+## Proyecto, autoría y licencia
+
+UStudyOpen es un proyecto educativo independiente. Este material no implica afiliación ni respaldo oficial de una universidad.
+
+La autoría corresponde a los colaboradores del curso; la identificación individual está pendiente de confirmación. No se encontró una licencia expresa en el repositorio. La licencia y las atribuciones del material deben aclararse antes de distribuirlo bajo nuevos términos.
+
+El curso se encuentra **en desarrollo**. La compilación y las pruebas técnicas no sustituyen la revisión académica; ninguna página se ha marcado automáticamente como revisada.

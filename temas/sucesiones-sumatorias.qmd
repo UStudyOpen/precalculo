@@ -1,6 +1,8 @@
 ---
 title: "Sucesiones y sumatorias"
 description: "Notación, fórmulas básicas y lectura intuitiva de sucesiones y sumas finitas"
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 ## Objetivo

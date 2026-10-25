@@ -1,6 +1,8 @@
 ---
 title: "Funciones lineales y ecuación de la recta"
 description: "Pendiente, razón de cambio y formas principales de la ecuación de una recta."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 ## Objetivo

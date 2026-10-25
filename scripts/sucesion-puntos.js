@@ -31,7 +31,7 @@
           <input id="sequence-term-count" type="range" min="${minTerms}" max="${maxTerms}" value="${initialTerms}" step="1">
         </div>
       </div>
-      <div class="sequence-sim__chart-wrap">
+      <div class="sequence-sim__chart-wrap" tabindex="0" role="region" aria-label="Gráfico de la sucesión; desplazamiento horizontal disponible">
         <svg class="sequence-sim__chart" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="sequence-sim-svg-title sequence-sim-svg-desc">
           <title id="sequence-sim-svg-title">Gráfico de puntos de una sucesión</title>
           <desc id="sequence-sim-svg-desc">Puntos de la sucesión a sub n igual a n dividido por n más uno para los primeros términos elegidos.</desc>

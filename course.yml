@@ -1,0 +1,115 @@
+{
+  "course": {
+    "schema": 1,
+    "slug": "precalculo",
+    "name": "Precálculo",
+    "reference_code": null,
+    "independent": true,
+    "status": "en-desarrollo",
+    "authorship": "Colaboradores del curso; identificación individual pendiente de confirmar",
+    "license": "pendiente-de-aclaracion",
+    "first_page": "temas/induccion.qmd",
+    "objectives": [
+      "Aplicar inducción, sucesiones y el teorema del binomio.",
+      "Interpretar razones trigonométricas y el círculo unitario.",
+      "Relacionar ecuaciones de rectas, circunferencias y parábolas con su representación geométrica."
+    ],
+    "units": [
+      {
+        "section": "Álgebra y demostración",
+        "contents": [
+          {
+            "href": "temas/induccion.qmd"
+          },
+          {
+            "href": "temas/sucesiones-sumatorias.qmd"
+          },
+          {
+            "href": "temas/teorema-binomio.qmd"
+          }
+        ]
+      },
+      {
+        "section": "Trigonometría",
+        "contents": [
+          {
+            "href": "temas/trigonometria.qmd"
+          }
+        ]
+      },
+      {
+        "section": "Geometría analítica",
+        "contents": [
+          {
+            "href": "temas/funciones-lineales-recta.qmd"
+          },
+          {
+            "href": "temas/circunferencia.qmd"
+          },
+          {
+            "href": "temas/parabola.qmd"
+          }
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "path": "index.qmd",
+        "title": "Precálculo",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "temas/circunferencia.qmd",
+        "title": "Circunferencia",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "temas/funciones-lineales-recta.qmd",
+        "title": "Funciones lineales y ecuación de la recta",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "temas/induccion.qmd",
+        "title": "Inducción matemática",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "temas/parabola.qmd",
+        "title": "Parábola",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "temas/sucesiones-sumatorias.qmd",
+        "title": "Sucesiones y sumatorias",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "temas/teorema-binomio.qmd",
+        "title": "Teorema del Binomio",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "temas/trigonometria.qmd",
+        "title": "Trigonometría",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      }
+    ],
+    "planned": []
+  }
+}
