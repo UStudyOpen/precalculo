@@ -1,0 +1,116 @@
+{
+  "origin": "2026-10-25 working-tree audit; update only with academic review",
+  "files": {
+    "temas/circunferencia.qmd": {
+      "kind": "lesson-body",
+      "sha256": "771e2dc028ad8fe79bdf1e366fcdfb9b178b0f2837b477f299d5c9a768b74b37"
+    },
+    "temas/funciones-lineales-recta.qmd": {
+      "kind": "lesson-body",
+      "sha256": "b37c11d996eeda67a7db606f6759c6267836fd98491777a1dc4672eaa43ba6bd"
+    },
+    "temas/induccion.qmd": {
+      "kind": "lesson-body",
+      "sha256": "13511de9928c8674c985031b5a0e095093f6b674c762fc5fc5317acb940cf934"
+    },
+    "temas/parabola.qmd": {
+      "kind": "lesson-body",
+      "sha256": "4e022b672561b5ba51ef3577e8b99ae4f853d2afe18b64999f52487715ed677e"
+    },
+    "temas/sucesiones-sumatorias.qmd": {
+      "kind": "lesson-body",
+      "sha256": "dae47596a03e916204d497521e80c4bd56d6beaef203b670d911232ab3a45c10"
+    },
+    "temas/teorema-binomio.qmd": {
+      "kind": "lesson-body",
+      "sha256": "ab9dac8d212b641def286e151899c22e26b577fd8b44d3d32272898f9fde3cb0"
+    },
+    "temas/trigonometria.qmd": {
+      "kind": "lesson-body",
+      "sha256": "4ad96e86a9b5d8e2ce964e5fa4847062a6f79721b0a8bec2be811c66e938c402"
+    },
+    "scripts/binomio-pascal.js": {
+      "kind": "bytes",
+      "sha256": "b68c45dc04da5ba5e8076301a7f9bb513306dd4f1032c8b770ee7c9023bbbd51",
+      "presentation_replacements": [
+        {
+          "old": "<div class=\"pascal-sim__triangle-wrap\" aria-label=",
+          "new": "<div class=\"pascal-sim__triangle-wrap\" tabindex=\"0\" role=\"region\" aria-label=",
+          "count": 1
+        }
+      ]
+    },
+    "scripts/circulo-unitario.js": {
+      "kind": "bytes",
+      "sha256": "c435c6909b7569cbe56ba88b42efab00c1a401c1c5b89418e907bb90670004b4",
+      "presentation_replacements": [
+        {
+          "old": "    svg.innerHTML = \"\";",
+          "new": "    // Preserve the accessible title and description when rebuilding graphics.\n    svg.replaceChildren(...Array.from(svg.children).filter(node => [\"title\", \"desc\"].includes(node.localName)));",
+          "count": 1
+        },
+        {
+          "old": "<div class=\"sequence-sim__chart-wrap\">",
+          "new": "<div class=\"sequence-sim__chart-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Círculo unitario; desplazamiento horizontal disponible\">",
+          "count": 1
+        }
+      ]
+    },
+    "scripts/circunferencia-interactiva.js": {
+      "kind": "bytes",
+      "sha256": "5795b292dfd2b7b6cfb07b886421d2a359401ba0acbdddf4b56d164e07ce26ec",
+      "presentation_replacements": [
+        {
+          "old": "<div class=\"sequence-sim__chart-wrap\">",
+          "new": "<div class=\"sequence-sim__chart-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Gráfico de la circunferencia; desplazamiento horizontal disponible\">",
+          "count": 1
+        }
+      ]
+    },
+    "scripts/induccion-cadena.js": {
+      "kind": "bytes",
+      "sha256": "09cb5e1e95f781aefa3ea594a4e4ad996554ce5ede24239e8a9c746e5813d06f"
+    },
+    "scripts/main.js": {
+      "kind": "bytes",
+      "sha256": "6cee3e615a670bd962d6c4d4450f166d263d690f9705a71f5f746856696ed0df"
+    },
+    "scripts/parabola-interactiva.js": {
+      "kind": "bytes",
+      "sha256": "8eae9911616ff8f295664356b5983b69af70e5ee7e234f13e29c58508dd8714b",
+      "presentation_replacements": [
+        {
+          "old": "<div class=\"sequence-sim__chart-wrap\">",
+          "new": "<div class=\"sequence-sim__chart-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Gráfico de la parábola; desplazamiento horizontal disponible\">",
+          "count": 1
+        }
+      ]
+    },
+    "scripts/recta-interactiva.js": {
+      "kind": "bytes",
+      "sha256": "90ba3b3ac4971b1d0c212fb9abd4b5c0b12385d91072d3b40daa31070cc70603",
+      "presentation_replacements": [
+        {
+          "old": "<div class=\"sequence-sim__chart-wrap\">",
+          "new": "<div class=\"sequence-sim__chart-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Gráfico de la recta; desplazamiento horizontal disponible\">",
+          "count": 1
+        }
+      ]
+    },
+    "scripts/sucesion-puntos.js": {
+      "kind": "bytes",
+      "sha256": "ec980854bb2ac9d66635b58011c9a496ffd665e7c540c51c71936dced05e1162",
+      "presentation_replacements": [
+        {
+          "old": "<div class=\"sequence-sim__chart-wrap\">",
+          "new": "<div class=\"sequence-sim__chart-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Gráfico de la sucesión; desplazamiento horizontal disponible\">",
+          "count": 1
+        }
+      ]
+    },
+    "referencias.bib": {
+      "kind": "bytes",
+      "sha256": "4be060a828e55f6667e58af21248602c3af5b2c6d397cf3bf6c23cb177a24b9e"
+    }
+  }
+}

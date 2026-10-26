@@ -67,7 +67,7 @@
         </div>
       </div>
       <div class="pascal-sim__body">
-        <div class="pascal-sim__triangle-wrap" aria-label="Triángulo de Pascal de los renglones cero a diez">
+        <div class="pascal-sim__triangle-wrap" tabindex="0" role="region" aria-label="Triángulo de Pascal de los renglones cero a diez">
           <div class="pascal-sim__triangle"></div>
         </div>
         <div class="pascal-sim__result" aria-live="polite">

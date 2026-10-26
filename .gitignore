@@ -1,2 +1,10 @@
 /.quarto/
 **/*.quarto_ipynb
+/_site/
+/artifacts/
+/node_modules/
+__pycache__/
+.env
+.env.*
+*.pem
+*.key

@@ -1,67 +1,88 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
   render:
-    - "*.qmd"
-    - "temas/*.qmd"
+  - index.qmd
+  - temas/circunferencia.qmd
+  - temas/funciones-lineales-recta.qmd
+  - temas/induccion.qmd
+  - temas/parabola.qmd
+  - temas/sucesiones-sumatorias.qmd
+  - temas/teorema-binomio.qmd
+  - temas/trigonometria.qmd
   resources:
-    - .nojekyll
-    - assets/
-    - scripts/main.js
-    - scripts/induccion-cadena.js
-    - scripts/sucesion-puntos.js
-    - scripts/binomio-pascal.js
-    - scripts/circulo-unitario.js
-    - scripts/recta-interactiva.js
-    - scripts/circunferencia-interactiva.js
-    - scripts/parabola-interactiva.js
-
-title: "Precálculo"
-
+  # Exclude the historical published tree from resource discovery.
+  - '!docs/**'
+  - scripts/binomio-pascal.js
+  - scripts/circulo-unitario.js
+  - scripts/circunferencia-interactiva.js
+  - scripts/induccion-cadena.js
+  - scripts/main.js
+  - scripts/parabola-interactiva.js
+  - scripts/recta-interactiva.js
+  - scripts/sucesion-puntos.js
+  - .nojekyll
+  post-render:
+  - python3 tests/post_render.py
 website:
-  title: "Precálculo"
+  title: Precálculo
   navbar:
+    title: UStudyOpen
+    pinned: true
+    background: light
+    collapse-below: lg
     left:
-      - text: "Inicio"
-        href: index.qmd
-      - text: "Inducción matemática"
-        href: temas/induccion.qmd
-      - text: "Sucesiones y sumatorias"
-        href: temas/sucesiones-sumatorias.qmd
-      - text: "Teorema del Binomio"
-        href: temas/teorema-binomio.qmd
-      - text: "Trigonometría"
-        href: temas/trigonometria.qmd
-      - text: "Rectas"
-        href: temas/funciones-lineales-recta.qmd
-      - text: "Circunferencia"
-        href: temas/circunferencia.qmd
-      - text: "Parábola"
-        href: temas/parabola.qmd
+    - text: Precálculo
+      href: index.qmd
+    - text: Inicio
+      href: index.qmd
   page-footer:
-    left: "Precálculo"
-    right: "Sitio académico generado con Quarto"
-
+    left: UStudyOpen · Proyecto educativo independiente
+    right: 'ngulloa · Contenido original [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) · Software compartido MIT'
+  search:
+    location: navbar
+    type: overlay
+  favicon: _extensions/ustudyopen-design/assets/favicon.svg
+  sidebar:
+    title: Precálculo
+    style: docked
+    collapse-level: 1
+    contents:
+    - href: index.qmd
+      text: Inicio
+    - section: Álgebra y demostración
+      contents:
+      - href: temas/induccion.qmd
+      - href: temas/sucesiones-sumatorias.qmd
+      - href: temas/teorema-binomio.qmd
+    - section: Trigonometría
+      contents:
+      - href: temas/trigonometria.qmd
+    - section: Geometría analítica
+      contents:
+      - href: temas/funciones-lineales-recta.qmd
+      - href: temas/circunferencia.qmd
+      - href: temas/parabola.qmd
+  page-navigation: true
+  back-to-top-navigation: true
 lang: es
 bibliography: referencias.bib
-
 format:
-  html:
-    theme: cosmo
-    toc: true
-    toc-title: "Contenido"
-    css: styles/custom.css
+  ustudyopen-design-html:
+    css:
+    - styles/custom.css
+    number-sections: false
+    code-overflow: wrap
+    link-external-newwindow: true
     include-after-body:
-      text: |
-        <script>
-        (() => {
-          const cssHref = Array.from(document.querySelectorAll('link[rel="stylesheet"]'))
-            .map((link) => link.getAttribute("href") || "")
-            .find((href) => href.endsWith("styles/custom.css"));
-          const basePath = cssHref ? cssHref.replace(/styles\/custom\.css$/, "") : "";
-          const script = document.createElement("script");
-          script.src = `${basePath}scripts/main.js`;
-          script.defer = true;
-          document.body.appendChild(script);
-        })();
-        </script>
+      text: "<script>\n(() => {\n  const cssHref = Array.from(document.querySelectorAll('link[rel=\"stylesheet\"\
+        ]'))\n    .map((link) => link.getAttribute(\"href\") || \"\")\n    .find((href) => href.endsWith(\"styles/custom.css\"\
+        ));\n  const basePath = cssHref ? cssHref.replace(/styles\\/custom\\.css$/, \"\") : \"\";\n  const script\
+        \ = document.createElement(\"script\");\n  script.src = `${basePath}scripts/main.js`;\n  script.defer =\
+        \ true;\n  document.body.appendChild(script);\n})();\n</script>\n"
+metadata-files:
+- course.yml
+quarto-required: =1.10.18
+brand:
+  light: _extensions/ustudyopen-design/brand/_brand.yml
+  dark: _extensions/ustudyopen-design/brand/_brand-dark.yml

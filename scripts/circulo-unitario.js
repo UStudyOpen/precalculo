@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="unit-circle__body">
-        <div class="sequence-sim__chart-wrap">
+        <div class="sequence-sim__chart-wrap" tabindex="0" role="region" aria-label="Círculo unitario; desplazamiento horizontal disponible">
           <svg class="sequence-sim__chart unit-circle__svg" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="unit-circle-svg-title unit-circle-svg-desc">
             <title id="unit-circle-svg-title">Círculo unitario interactivo</title>
             <desc id="unit-circle-svg-desc">Círculo unitario con punto móvil, radio, proyecciones hacia los ejes y lectura de seno y coseno.</desc>
@@ -151,7 +151,8 @@
   });
 
   const drawStatic = () => {
-    svg.innerHTML = "";
+    // Preserve the accessible title and description when rebuilding graphics.
+    svg.replaceChildren(...Array.from(svg.children).filter(node => ["title", "desc"].includes(node.localName)));
 
     const background = makeSvg("rect", {
       x: 0,

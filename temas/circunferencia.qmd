@@ -1,6 +1,8 @@
 ---
 title: "Circunferencia"
 description: "Centro, radio y ecuaciones principales de la circunferencia en el plano cartesiano."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 ## Objetivo

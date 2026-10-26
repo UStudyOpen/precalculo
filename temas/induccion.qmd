@@ -1,6 +1,8 @@
 ---
 title: "Inducción matemática"
 description: "Método de demostración para proposiciones definidas sobre los números naturales"
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 ## Objetivo

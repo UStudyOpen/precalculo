@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="unit-circle__body">
-        <div class="sequence-sim__chart-wrap">
+        <div class="sequence-sim__chart-wrap" tabindex="0" role="region" aria-label="Gráfico de la circunferencia; desplazamiento horizontal disponible">
           <svg class="sequence-sim__chart" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="circle-svg-title circle-svg-desc">
             <title id="circle-svg-title">Circunferencia interactiva</title>
             <desc id="circle-svg-desc">Circunferencia centrada en el origen con radio tres.</desc>

@@ -1,6 +1,8 @@
 ---
 title: "Trigonometría"
 description: "Medición angular, razones trigonométricas, círculo unitario e identidades básicas."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 ## Objetivo
